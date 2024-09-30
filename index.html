@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fatos Filosóficos</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Fatos Filosóficos</h1>
+        <div class="hero">
+            <h1>Fatos Filosóficos</h1>
+            <p>Curiosidades e insights sobre filosofia</p>
+        </div>
         <nav>
             <ul>
                 <li><a href="#home">Início</a></li>
@@ -24,16 +28,36 @@
         </section>
         <section id="posts">
             <h2>Posts Recentes</h2>
-            <article>
-                <h3>Título do Post 1</h3>
-                <p>Resumo do post 1...</p>
-                <a href="#">Leia mais</a>
-            </article>
-            <article>
-                <h3>Título do Post 2</h3>
-                <p>Resumo do post 2...</p>
-                <a href="#">Leia mais</a>
-            </article>
+            <div class="post-container">
+                <article>
+                    <h3>Título do Post 1</h3>
+                    <p>Resumo do post 1...</p>
+                    <a href="#">Leia mais</a>
+                </article>
+                <article>
+                    <h3>Título do Post 2</h3>
+                    <p>Resumo do post 2...</p>
+                    <a href="#">Leia mais</a>
+                </article>
+                <article>
+                    <h3>Título do Post 3</h3>
+                    <p>Resumo do post 3...</p>
+                    <a href="#">Leia mais</a>
+                </article>
+            </div>
+        </section>
+        <section id="about">
+            <h2>Sobre</h2>
+            <p>O Fatos Filosóficos foi criado com o objetivo de compartilhar conhecimento sobre filosofia, despertando o interesse das pessoas pelos pensamentos dos grandes filósofos da história.</p>
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Sua mensagem"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
     <footer>
